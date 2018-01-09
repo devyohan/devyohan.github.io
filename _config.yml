@@ -1,6 +1,7 @@
 # SITE CONFIGURATION
-baseurl: "/"
+baseurl: ""
 url: "https://devyohan.github.io"
+theme: minima
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
