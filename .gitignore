@@ -7,6 +7,7 @@ _site/**
 _site
 _development_tool/**
 _development_tool
+_drafts/
 
 .sass-cache/**
 *.css.map

@@ -1,7 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://devyohan.github.io"
-theme: minima
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -14,7 +13,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> to disable this feature.</p>
+     <p></p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
@@ -45,7 +44,7 @@ theme_settings:
   youtube:
 
   # Scripts / Features 
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-102948526-1"
   disqus_shortname:
   katex: true # Enable if using math markup
   portfolio: true
