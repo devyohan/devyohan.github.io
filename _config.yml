@@ -48,6 +48,7 @@ theme_settings:
   disqus_shortname:
   katex: true # Enable if using math markup
   portfolio: true
+  study: true
   search: true
   tags: true
   
@@ -76,6 +77,9 @@ paginate_path: "blog/page:num"
 
 # PORTFOLIO
 collections:
+  study:
+    output: true
+    permalink: /:collection/:name
   portfolio:
     output: true
     permalink: /:collection/:name
