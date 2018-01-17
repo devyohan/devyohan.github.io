@@ -4,12 +4,13 @@
         {% for item in site.study %}
         <div class="col-sm-4 col-xs-4 study-item">
             <a href="{{ site.baseurl }}{{ item.url }}" class="study-link" data-keyboard="true">
+                {{ item.title }}
                 <div class="caption" title="{{ item.title }}">
                     <div class="caption-content">
                         <i class="fa fa-search-plus fa-3x"></i>
                     </div>
                 </div>
-                <img src="{{ site.baseurl }}/{{ item.img }}" class="" alt="">
+                <img src="{{ site.baseurl }}/{{ item.img }}" class="" alt="{{ item.title }}">
             </a>
         </div>
         {% endfor %}
