@@ -16,3 +16,4 @@ Gemfile.lock
 *.gem
 
 .ipynb_checkpoints/
+_drafts/
